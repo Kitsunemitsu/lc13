@@ -24,6 +24,12 @@
 		)
 //	gift_type = /datum/ego_gifts/arcadia
 	abnormality_origin = ABNORMALITY_ORIGIN_ORIGINAL
+	work_bubbles = list(
+		ABNORMALITY_WORK_INSTINCT = list("Whispering is heard from %ABNO.... 'kill... them...'"),
+		ABNORMALITY_WORK_INSIGHT = list("%PERSON wipes the blood off %ABNO, but it's futile. More will appear shortly."),
+		ABNORMALITY_WORK_ATTACHMENT = list("%PERSON talks to themselves in the room.", "%PERSON talks about their day, awkwardly."),
+		ABNORMALITY_WORK_REPRESSION = list("%PERSON drops a bit of blood onto %ABNO. It's not enough."),
+	)
 
 	//takes 12 minutes from the moment of getting it to breach, and cause a headache.
 	var/stage
