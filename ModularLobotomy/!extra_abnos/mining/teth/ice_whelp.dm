@@ -1,6 +1,6 @@
 
 /mob/living/simple_animal/hostile/abnormality/mining/ice_whelp
-	name = "ice whelp"
+	name = "Ice Whelp"
 	desc = "The offspring of an ice drake, weak in comparison but still terrifying."
 	icon = 'icons/mob/icemoon/icemoon_monsters.dmi'
 	icon_state = "ice_whelp"
@@ -61,7 +61,7 @@
 
 
 	/// How far the whelps fire can go
-	var/fire_range = 4
+	var/fire_range = 7
 
 /mob/living/simple_animal/hostile/abnormality/mining/ice_whelp/OpenFire()
 	var/turf/T = get_ranged_target_turf_direct(src, target, fire_range)

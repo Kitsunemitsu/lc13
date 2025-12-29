@@ -21,6 +21,7 @@
 	desc = "A large magic box with similar power and design to the Hierophant.  Once it opens, it's not easy to close it."
 	icon_state = "pandora"
 	icon_living = "pandora"
+	icon = 'icons/mob/lavaland/lavaland_elites.dmi'
 	icon_aggro = "pandora"
 	icon_dead = "pandora_dead"
 	icon_gib = "syndicate_gib"
