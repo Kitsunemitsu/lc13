@@ -23,6 +23,8 @@
 	speed = 3
 	move_to_delay = 4
 	minimum_distance = 4
+	can_breach = TRUE
+	start_qliphoth = 2
 	mouse_opacity = MOUSE_OPACITY_ICON
 	death_sound = 'sound/magic/repulse.ogg'
 	death_message = "'s lights flicker, before its top part falls down."
