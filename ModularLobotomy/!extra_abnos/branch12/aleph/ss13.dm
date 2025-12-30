@@ -200,13 +200,6 @@
 		if(prob(70))
 			addtimer(CALLBACK(src, PROC_REF(Firebomb), T), rand(1,100))
 
-	//Set everything back
-	supplies = 100
-	fuel = 100
-	integrity = 100
-	security = 70
-	research = 0
-
 /mob/living/simple_animal/hostile/abnormality/branch12/ss13/proc/Firebomb(turf/open/F)
 	new /obj/effect/beeshell(F)
 
