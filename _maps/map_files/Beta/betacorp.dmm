@@ -133,11 +133,6 @@
 "aG" = (
 /turf/open/floor/plasteel/dark,
 /area/facility_hallway/discipline)
-"aI" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/ntnet_relay,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "aK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -739,9 +734,7 @@
 /turf/open/floor/plasteel/dark,
 /area/department_main/training)
 "dI" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/bus/preset_four,
+/obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/department_main/information)
 "dK" = (
@@ -1023,11 +1016,6 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/facility,
 /area/facility_hallway/north)
-"eP" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/processor/preset_two,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "eT" = (
 /obj/effect/turf_decal/siding/green,
 /turf/open/floor/plasteel,
@@ -1308,11 +1296,6 @@
 /obj/machinery/aug_manipulator,
 /turf/open/floor/carpet/purple,
 /area/department_main/information)
-"gR" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/hub/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "gU" = (
 /obj/machinery/vending/lobotomyheadset,
 /obj/machinery/light{
@@ -1545,11 +1528,7 @@
 /turf/open/floor/plasteel,
 /area/facility_hallway/south)
 "iq" = (
-/obj/machinery/telecomms/server/presets/science,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/space/basic,
 /area/department_main/information)
 "ir" = (
 /obj/effect/turf_decal/siding/red{
@@ -1592,9 +1571,6 @@
 /turf/closed/indestructible/fakeglass,
 /area/department_main/welfare)
 "iF" = (
-/obj/machinery/telecomms/server/presets/command{
-	name = "Command Server"
-	},
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -3207,8 +3183,7 @@
 /turf/open/floor/facility,
 /area/facility_hallway/discipline)
 "qB" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/relay/preset/telecomms,
+/obj/machinery/telecomms/relay/preset/station,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/department_main/information)
 "qG" = (
@@ -4003,7 +3978,6 @@
 "tR" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/processor/preset_one,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/department_main/information)
 "tT" = (
@@ -5824,12 +5798,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/department_main/command)
-"Du" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/bus/preset_one,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "Dw" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin/construction,
@@ -5840,11 +5808,6 @@
 /obj/effect/turf_decal/siding/purple,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
-/area/department_main/information)
-"DA" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/processor/preset_four,
-/turf/open/floor/circuit/telecomms/mainframe,
 /area/department_main/information)
 "DB" = (
 /obj/effect/turf_decal/siding/yellow{
@@ -5877,11 +5840,6 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/department_main/welfare)
-"DK" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/bus/preset_two,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "DM" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 10
@@ -6083,10 +6041,6 @@
 /obj/structure/disposalpipe/junction,
 /turf/open/floor/facility,
 /area/facility_hallway/south)
-"EO" = (
-/obj/machinery/telecomms/server/presets/common,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "ER" = (
 /obj/structure/chair/office,
 /obj/item/toy/plush/gebura,
@@ -6425,11 +6379,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/department_main/records)
-"Gt" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/bus/preset_three,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "Gu" = (
 /obj/machinery/computer/ego_purchase{
 	dir = 4
@@ -6636,10 +6585,6 @@
 /obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/department_main/safety)
-"HS" = (
-/obj/machinery/telecomms/server/presets/security,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "HU" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/highsecurity{
@@ -7212,11 +7157,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/department_main/welfare)
-"Kv" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/receiver/preset_right,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "Kx" = (
 /obj/effect/spawner/abnormality_room,
 /turf/closed/indestructible/reinforced,
@@ -7563,11 +7503,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/facility_hallway/south)
-"Mk" = (
-/obj/machinery/telecomms/broadcaster/preset_right,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "Ml" = (
 /obj/effect/turf_decal/siding/yellow/corner{
 	dir = 1
@@ -7958,7 +7893,6 @@
 /turf/closed/indestructible/rock,
 /area/space)
 "OB" = (
-/obj/machinery/telecomms/server/presets/medical,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/department_main/information)
 "OD" = (
@@ -7993,10 +7927,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/facility_hallway/discipline)
-"OM" = (
-/obj/machinery/telecomms/message_server/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "ON" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -8109,12 +8039,6 @@
 /obj/structure/rack,
 /turf/open/floor/carpet/royalblack,
 /area/department_main/control)
-"PE" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/processor/preset_three,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "PF" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 1
@@ -8435,7 +8359,6 @@
 /area/department_main/training)
 "RI" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/receiver/preset_left,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/department_main/information)
 "RL" = (
@@ -8818,11 +8741,6 @@
 	},
 /turf/open/floor/carpet,
 /area/department_main/control)
-"Ty" = (
-/obj/machinery/telecomms/broadcaster/preset_left,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/department_main/information)
 "TE" = (
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/siding/yellow{
@@ -10070,9 +9988,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/department_main/discipline)
-"Zg" = (
-/turf/closed/indestructible/fakeglass,
-/area/department_main/information)
 "Zj" = (
 /obj/machinery/light{
 	dir = 8
@@ -43547,7 +43462,7 @@ Ob
 Ng
 Io
 Io
-Zg
+Io
 fq
 fq
 fq
@@ -44562,10 +44477,10 @@ JB
 JB
 Io
 Io
-eP
+RI
 tR
-DK
-Zg
+RI
+Io
 mP
 it
 xO
@@ -44818,11 +44733,11 @@ JB
 JB
 JB
 Io
-OM
-gR
+OB
 RI
-Du
-Zg
+RI
+tR
+Io
 RN
 DD
 DD
@@ -45076,9 +44991,9 @@ JB
 JB
 Io
 Io
-DA
-PE
-Gt
+Io
+Io
+Io
 Io
 Kb
 DD
@@ -45332,11 +45247,11 @@ JB
 JB
 JB
 Io
-HS
+Io
 qB
-Kv
+OB
 dI
-Zg
+Io
 ID
 DD
 DD
@@ -45590,10 +45505,10 @@ JB
 JB
 Io
 Io
-Ty
-aI
-Mk
-Zg
+Io
+Io
+Io
+Io
 gd
 YE
 kr
@@ -45847,7 +45762,7 @@ JB
 JB
 JB
 Io
-EO
+OB
 Io
 Io
 Io
@@ -46631,7 +46546,7 @@ Io
 NZ
 Io
 Io
-Zg
+Io
 fq
 FU
 Mt

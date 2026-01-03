@@ -140,11 +140,6 @@
 	},
 /turf/open/floor/wood,
 /area/department_main/training)
-"cQ" = (
-/obj/machinery/telecomms/broadcaster/preset_right,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "da" = (
 /obj/structure/filingcabinet/alephinfo{
 	pixel_x = 1
@@ -221,11 +216,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/facility_hallway/east)
-"ej" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/hub/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "eq" = (
 /obj/machinery/photocopier,
 /turf/open/floor/carpet/black,
@@ -283,8 +273,7 @@
 /turf/open/floor/facility/dark,
 /area/department_main/training)
 "ff" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/processor/preset_two,
+/obj/machinery/telecomms/relay/preset/station,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/facility_hallway/training)
 "fg" = (
@@ -366,13 +355,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/facility_hallway/east)
-"hf" = (
-/obj/machinery/telecomms/server/presets/command{
-	name = "Command Server"
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "hm" = (
 /obj/effect/turf_decal/siding/yellow/corner,
 /turf/open/floor/facility/white,
@@ -593,8 +575,7 @@
 /turf/open/floor/carpet/black,
 /area/department_main/records)
 "kG" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/bus/preset_two,
+/obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/facility_hallway/training)
 "lg" = (
@@ -882,11 +863,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/department_main/records)
-"pb" = (
-/obj/machinery/telecomms/server/presets/engineering,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "ph" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger{
@@ -941,11 +917,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/department_main/records)
-"qE" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/ntnet_relay,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "qL" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
@@ -1027,11 +998,6 @@
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/facility/dark,
 /area/department_main/records)
-"sj" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/relay/preset/telecomms,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "sp" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -1103,9 +1069,7 @@
 /turf/open/floor/plasteel/dark,
 /area/department_main/safety)
 "th" = (
-/obj/machinery/telecomms/broadcaster/preset_left,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/space/basic,
 /area/facility_hallway/training)
 "to" = (
 /obj/effect/turf_decal/tile/brown{
@@ -1185,10 +1149,6 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/wood,
 /area/department_main/training)
-"ue" = (
-/obj/machinery/telecomms/server/presets/common,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "uk" = (
 /obj/machinery/camera/autoname{
 	dir = 10
@@ -1291,10 +1251,6 @@
 /obj/machinery/deepfryer,
 /turf/open/floor/plasteel/white,
 /area/department_main/training)
-"vo" = (
-/obj/machinery/telecomms/server/presets/medical,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "vv" = (
 /turf/open/floor/facility/white,
 /area/department_main/training)
@@ -1314,12 +1270,6 @@
 /obj/effect/landmark/abnormality_spawn/training_rabbit,
 /turf/open/floor/facility/dark,
 /area/department_main/training)
-"vL" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/bus/preset_one,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "vO" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "LC30"
@@ -1591,11 +1541,6 @@
 /obj/machinery/holopad,
 /turf/open/floor/carpet/red,
 /area/department_main/control)
-"BH" = (
-/obj/machinery/announcement_system,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "BI" = (
 /obj/effect/turf_decal/siding/brown,
 /obj/effect/spawner/structure/window/reinforced,
@@ -1849,11 +1794,6 @@
 /obj/machinery/chem_master,
 /turf/open/floor/carpet/green,
 /area/department_main/safety)
-"Ih" = (
-/obj/machinery/telecomms/server/presets/service,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "In" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 6
@@ -1866,9 +1806,6 @@
 /turf/open/floor/carpet/green,
 /area/department_main/safety)
 "IS" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/processor/preset_one,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/facility_hallway/training)
 "Jb" = (
@@ -1880,12 +1817,6 @@
 "Jm" = (
 /turf/open/floor/plating,
 /area/facility_hallway/east)
-"JA" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/bus/preset_four,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "JJ" = (
 /obj/machinery/cryopod{
 	dir = 1
@@ -1947,12 +1878,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/department_main/records)
-"Lb" = (
-/obj/machinery/telecomms/relay/preset/telecomms,
-/obj/structure/emergency_shield,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "Lf" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/wood/glass,
@@ -2041,11 +1966,6 @@
 	},
 /turf/open/floor/facility/white,
 /area/department_main/command)
-"Nu" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/receiver/preset_left,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "Nz" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/wood,
@@ -2125,11 +2045,6 @@
 	},
 /turf/open/floor/carpet/green,
 /area/department_main/safety)
-"OB" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/bus/preset_three,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "OZ" = (
 /obj/docking_port/stationary{
 	dir = 2;
@@ -2149,10 +2064,6 @@
 /obj/machinery/sleeper/syndie,
 /turf/open/floor/carpet/green,
 /area/department_main/safety)
-"Qg" = (
-/obj/machinery/telecomms/message_server/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "QB" = (
 /turf/open/floor/plasteel/showroomfloor,
 /area/department_main/training)
@@ -2260,11 +2171,6 @@
 /obj/item/toy/plush/mosb,
 /turf/open/floor/plasteel/dark,
 /area/department_main/safety)
-"Su" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/receiver/preset_right,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "SG" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -2282,12 +2188,6 @@
 	},
 /turf/open/floor/facility/dark,
 /area/department_main/training)
-"SZ" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/processor/preset_three,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "Te" = (
 /obj/machinery/vending/lobotomyuniform,
 /obj/effect/turf_decal/bot_white,
@@ -2371,10 +2271,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/department_main/control)
-"UN" = (
-/obj/machinery/telecomms/server/presets/security,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "Vm" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 1
@@ -2488,11 +2384,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/department_main/safety)
-"YH" = (
-/obj/machinery/telecomms/server/presets/supply,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "YS" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 10
@@ -2513,16 +2404,6 @@
 	},
 /turf/open/floor/carpet/green,
 /area/department_main/safety)
-"Zo" = (
-/obj/machinery/telecomms/server/presets/science,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
-"Zv" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/telecomms/processor/preset_four,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/facility_hallway/training)
 "Zx" = (
 /obj/machinery/light{
 	dir = 8
@@ -64463,10 +64344,10 @@ lF
 lF
 lF
 cb
-vo
-Qg
 cb
-BH
+cb
+cb
+th
 cb
 lF
 lF
@@ -64723,7 +64604,7 @@ cb
 ff
 IS
 kG
-Zo
+th
 cb
 lF
 lF
@@ -64977,10 +64858,10 @@ lF
 lF
 lF
 cb
-ej
-Nu
-vL
-pb
+cb
+cb
+cb
+th
 cb
 lF
 lF
@@ -65234,10 +65115,10 @@ lF
 lF
 lF
 cb
-Zv
-SZ
-OB
-YH
+th
+th
+th
+th
 cb
 lF
 lF
@@ -65491,10 +65372,10 @@ lF
 lF
 lF
 cb
-sj
-Su
-JA
-Ih
+th
+th
+th
+th
 cb
 lF
 lF
@@ -65749,9 +65630,9 @@ lF
 lF
 cb
 th
-qE
-cQ
-hf
+th
+th
+th
 cb
 lF
 lF
@@ -66005,10 +65886,10 @@ lF
 lF
 lF
 cb
-ue
-UN
-cb
-Lb
+th
+th
+th
+th
 cb
 lF
 lF
