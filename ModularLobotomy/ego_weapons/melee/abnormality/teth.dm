@@ -7,6 +7,16 @@
 	attack_verb_continuous = list("smacks", "hammers", "beats")
 	attack_verb_simple = list("smack", "hammer", "beat")
 
+/obj/item/ego_weapon/trainingbig
+	name = "big training hammer"
+	desc = "E.G.O intended for Manager Education"
+	icon_state = "training"
+	force = 23
+	attack_speed = 1.1
+	damtype = WHITE_DAMAGE
+	attack_verb_continuous = list("smacks", "hammers", "beats")
+	attack_verb_simple = list("smack", "hammer", "beat")
+
 /obj/item/ego_weapon/fragment
 	name = "fragments from somewhere"
 	desc = "The spear often tries to lead the wielder into a long and endless realm of mind, \
