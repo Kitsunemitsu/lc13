@@ -227,7 +227,7 @@
 		/obj/item/ammo_casing/energy/laser/red,
 		)
 	pin = /obj/item/firing_pin
-	projectile_damage_multiplier = 0.4
+	projectile_damage_multiplier = 0.6
 	item_flags = SLOWS_WHILE_IN_HAND
 	fire_delay = 0
 	drag_slowdown = 3

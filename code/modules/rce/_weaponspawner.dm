@@ -20,19 +20,19 @@
 
 /obj/effect/landmark/rcorp/midweapon
 	possible_items = list(
-		/obj/item/gun/energy/e_gun/rabbitdash/shotgun/iff,
+		/obj/item/gun/energy/e_gun/rabbitdash/shotgun,
 		/obj/item/gun/energy/e_gun/rabbitdash/pale/iff,
-		/obj/item/gun/energy/e_gun/rabbit/minigun/iff,
+		/obj/item/gun/energy/e_gun/rabbit/minigun,
 		/obj/item/gun/grenadelauncher,
 	)
 
 /obj/effect/landmark/rcorp/highweapon
 	possible_items = list(
-		/obj/item/gun/energy/e_gun/rabbitdash/shotgun/white/iff,
-		/obj/item/gun/energy/e_gun/rabbitdash/shotgun/black/iff,
-		/obj/item/gun/energy/e_gun/rabbitdash/heavy/iff,
+		/obj/item/gun/energy/e_gun/rabbitdash/shotgun/white,
+		/obj/item/gun/energy/e_gun/rabbitdash/shotgun/black,
+		/obj/item/gun/energy/e_gun/rabbitdash/heavy,
 		/obj/item/gun/energy/e_gun/rabbitdash/heavysniper, // Already IFF
-		/obj/item/gun/energy/e_gun/rabbit/nopin/iff,
+		/obj/item/gun/energy/e_gun/rabbit/nopin,
 		/obj/item/gun/energy/e_gun/rabbit/minigun/tricolor, // Already IFF
 		/obj/item/minigunpack,
 
@@ -63,8 +63,7 @@
 		/obj/item/gun/energy/e_gun/rabbitdash/small/smg/iff,
 		/obj/item/gun/energy/e_gun/rabbitdash/small/smg/white/iff,
 		/obj/item/gun/energy/e_gun/rabbitdash/small/smg/black/iff,
-		/obj/item/gun/energy/e_gun/rabbitdash/small/pale/iff,
-		/obj/item/gun/energy/e_gun/rabbitdash/small/tinypale/iff,
+		/obj/item/gun/energy/e_gun/rabbitdash/small/smg/pale/iff,
 	)
 
 

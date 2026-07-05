@@ -233,3 +233,10 @@
 	ME = new /obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/rifle/pale(src)
 	ME.attach(src)
 	max_ammo()
+
+/obj/vehicle/sealed/mecha/combat/rhinosmall/add_cell(obj/item/stock_parts/cell/C=null)
+	if(C)
+		C.forceMove(src)
+		cell = C
+		return
+	cell = new /obj/item/stock_parts/cell/infinite(src)
