@@ -35,3 +35,10 @@
 	ocost = 2
 	item = /obj/vehicle/sealed/mecha/combat/rhinosmall
 
+/obj/structure/rcorp_factory/krevive
+	name = "K-Corp Revive factory"
+	desc = "A machine used to craft items."
+	icon_state = "highfactory"
+	scost = 3
+	ocost = 1
+	item = /obj/item/krevive

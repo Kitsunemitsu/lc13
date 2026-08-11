@@ -49,9 +49,11 @@ GLOBAL_LIST_INIT(robin_sergeants, list("Section A", "Section B", "Section C"))
 	suit = null
 	belt = null
 	l_pocket = /obj/item/flashlight/seclite
+	r_pocket = /obj/item/storage/flare_pouch
 	box = null
 	back = /obj/item/storage/backpack/rcorp
 	ignore_pack = TRUE
+	backpack_contents = list(/obj/item/megaphone = 1)
 
 
 /datum/job/robin_leader
@@ -115,11 +117,16 @@ GLOBAL_LIST_INIT(robin_sergeants, list("Section A", "Section B", "Section C"))
 	gloves = /obj/item/clothing/gloves/color/black
 	implants = list(/obj/item/organ/cyberimp/eyes/hud/security)
 	head = null
-	l_pocket = /obj/item/commandprojector
+	l_pocket = /obj/item/storage/flare_pouch
 	r_pocket = /obj/item/flashlight/seclite
 	box = null
 	back = /obj/item/storage/backpack/rcorp
+	backpack_contents = list(/obj/item/megaphone = 1,
+		/obj/item/commandprojector = 1)
 	ignore_pack = TRUE
+
+
+
 
 /datum/job/robin_sergeant
 	title = "Robin Squad Sergeant"
@@ -178,17 +185,28 @@ GLOBAL_LIST_INIT(robin_sergeants, list("Section A", "Section B", "Section C"))
 	ears = null
 	glasses = null
 	uniform = /obj/item/clothing/under/suit/lobotomy/rabbit
-	belt = null
+	belt = /obj/item/gun/grenadelauncher
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/color/black
 	implants = list(/obj/item/organ/cyberimp/eyes/hud/security)
 	head = null
 	r_pocket = /obj/item/flashlight/seclite
+	l_pocket = /obj/item/storage/rcorp_grenade/full
 	box = null
 
 	backpack_contents = list(/obj/item/combat_log_book = 1)
+
 	back = /obj/item/storage/backpack/rcorp
 	ignore_pack = TRUE
+
+//Their grenade pouch
+/obj/item/storage/rcorp_grenade/full/PopulateContents()
+	new /obj/item/grenade/barrier(src)
+	new /obj/item/grenade/barrier(src)
+	new /obj/item/grenade/barrier(src)
+	new /obj/item/grenade/barrier(src)
+	new /obj/item/grenade/barrier(src)
+
 
 
 /datum/outfit/job/robin

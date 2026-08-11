@@ -296,9 +296,9 @@
 /area/rce/xcorp/rce_0_0)
 "ee" = (
 /obj/machinery/conveyor/auto{
-	dir = 4
+	dir = 8
 	},
-/obj/structure/rcorp_factory/melee2,
+/obj/structure/rcorp_factory/krevive,
 /turf/open/floor/facility/halls,
 /area/rce/rcorp_base)
 "eg" = (
@@ -717,9 +717,8 @@
 /area/rce/rcorp_base)
 "kz" = (
 /obj/structure/table/greyscale,
-/obj/item/storage/backpack/duffelbag/med/upgradedsurgery,
-/obj/item/storage/backpack/duffelbag/med/upgradedsurgery,
 /obj/machinery/cell_charger,
+/obj/item/screwdriver,
 /turf/open/floor/pod/light,
 /area/rce/rcorp_base)
 "kC" = (
@@ -945,6 +944,7 @@
 /obj/item/clothing/suit/armor/ego_gear/rabbit/officer,
 /obj/item/storage/engi_pouch,
 /obj/item/pickaxe/mini,
+/obj/item/storage/flare_pouch,
 /turf/open/floor/pod,
 /area/rce/rcorp_base)
 "mK" = (
@@ -3041,8 +3041,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/light,
 /area/rce/rcorp_base)
+"Rm" = (
+/obj/machinery/conveyor/auto{
+	dir = 4
+	},
+/obj/structure/rcorp_factory/pistol2,
+/turf/open/floor/facility/halls,
+/area/rce/rcorp_base)
 "Ro" = (
 /obj/structure/table/optable,
+/obj/item/storage/backpack/duffelbag/med/upgradedsurgery,
 /turf/open/floor/pod/light,
 /area/rce/rcorp_base)
 "Rt" = (
@@ -3128,11 +3136,6 @@
 	},
 /turf/open/indestructible/necropolis/air,
 /area/rce/xcorp/rce_2_0)
-"SQ" = (
-/obj/structure/rack,
-/obj/item/wrench,
-/turf/open/floor/pod/light,
-/area/rce/rcorp_base)
 "SS" = (
 /obj/structure/flora/rock,
 /turf/open/water,
@@ -3444,8 +3447,9 @@
 /area/rce/rcorp_base)
 "XL" = (
 /obj/structure/rack,
-/obj/item/crowbar,
+/obj/item/storage/flare_pouch,
 /obj/item/wrench,
+/obj/item/crowbar,
 /turf/open/floor/pod/light,
 /area/rce/rcorp_base)
 "XN" = (
@@ -12289,13 +12293,13 @@ EQ
 Kc
 Kc
 Kc
-Kc
 uz
 GX
 eB
 LP
 ms
 XB
+ee
 Of
 Rg
 vv
@@ -12546,13 +12550,13 @@ FO
 ud
 ud
 ud
-ud
 wz
 wz
 wz
 wz
 wz
 jT
+wz
 wz
 wz
 wz
@@ -12803,13 +12807,13 @@ wz
 Zi
 Zi
 Zi
-Zi
 wz
 wz
 wz
 wz
 wz
 jT
+wz
 wz
 FO
 FO
@@ -15630,12 +15634,12 @@ JJ
 Kc
 Kc
 Kc
-Zi
 rE
 rE
 rE
 rE
 rE
+jT
 ud
 ud
 jT
@@ -15887,12 +15891,12 @@ Sr
 ud
 ud
 ud
+rE
+rE
+rE
+rE
+rE
 jT
-rE
-rE
-rE
-rE
-rE
 ud
 ud
 jT
@@ -16144,12 +16148,12 @@ Ba
 jT
 jT
 HU
-Zi
 rH
 In
 Gx
 Bf
-ee
+Rm
+jT
 VL
 ud
 jT
@@ -21574,7 +21578,7 @@ ld
 ld
 ld
 MA
-SQ
+VG
 jT
 jT
 jT
@@ -52177,8 +52181,8 @@ FR
 FR
 FR
 FR
-FR
-FR
+bf
+bf
 bf
 bf
 FR
@@ -53203,8 +53207,8 @@ FR
 FR
 bf
 bf
-FR
-FR
+bf
+bf
 bf
 bf
 bf
@@ -53460,9 +53464,9 @@ FR
 FR
 bf
 bf
-FR
-FR
-FR
+bf
+bf
+bf
 bf
 bf
 bf
@@ -53717,10 +53721,10 @@ FR
 bf
 Dn
 bf
-FR
-FR
-FR
-FR
+bf
+bf
+bf
+bf
 bf
 bf
 bf
@@ -53974,15 +53978,15 @@ FR
 bf
 bf
 bf
-FR
-FR
-FR
-FR
-FR
 bf
-FR
-FR
-FR
+bf
+bf
+bf
+bf
+bf
+bf
+bf
+bf
 bf
 bf
 bf
@@ -54233,13 +54237,13 @@ bf
 bf
 bf
 bf
-FR
-FR
 bf
 bf
-FR
-FR
-FR
+bf
+bf
+bf
+bf
+bf
 bf
 bf
 bf
@@ -54487,16 +54491,16 @@ FR
 FR
 bf
 bf
-FR
 bf
-FR
-FR
-FR
 bf
-FR
-FR
-FR
-FR
+bf
+bf
+bf
+bf
+bf
+bf
+bf
+bf
 bf
 Vy
 bf
@@ -54745,14 +54749,14 @@ bf
 bf
 Vy
 bf
-FR
-FR
-FR
+bf
+bf
+bf
 bf
 fT
 bv
-FR
-FR
+bf
+bf
 bf
 bf
 bf
@@ -55003,13 +55007,13 @@ bf
 bf
 bf
 bf
-FR
-FR
-FR
+bf
+bf
+bf
 Dn
 bf
-FR
-FR
+bf
+bf
 bf
 bf
 bf
@@ -55261,12 +55265,12 @@ bf
 Dn
 bf
 bf
-FR
-FR
 bf
 bf
-FR
-FR
+bf
+bf
+bf
+bf
 bf
 bf
 bf
@@ -55517,13 +55521,13 @@ bf
 bf
 bf
 bf
-FR
-FR
-FR
-FR
 bf
 bf
-FR
+bf
+bf
+bf
+bf
+bf
 bf
 bf
 bf
@@ -55774,9 +55778,9 @@ Vy
 bf
 bf
 bf
-FR
-FR
-FR
+bf
+bf
+bf
 bf
 bf
 bf
@@ -56031,7 +56035,7 @@ bf
 bf
 bf
 bf
-FR
+bf
 bf
 bf
 bf

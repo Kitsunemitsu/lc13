@@ -205,6 +205,38 @@
 		/obj/item/ego_weapon/city/rabbit/throwing,
 		))
 
+/obj/item/storage/flare_pouch
+	name = "Flare Pouch"
+	desc = "You wear this on your pocket and put flares into it. Holds 14 flares."
+	icon_state = "flare_pouch"
+	inhand_icon_state = "flare_pouch"
+	slot_flags = ITEM_SLOT_POCKETS
+	w_class = WEIGHT_CLASS_BULKY
+	resistance_flags = NONE
+	max_integrity = 300
+
+/obj/item/storage/flare_pouch/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_combined_w_class = 99
+	STR.max_w_class = WEIGHT_CLASS_BULKY
+	STR.max_items = 14
+	STR.set_holdable(list(/obj/item/flashlight/flare))
+
+/obj/item/storage/flare_pouch/PopulateContents()
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+
+
+
 // Specialist Gear Pouches - Hold specialist class gear but NOT EGO weapons
 
 /obj/item/storage/storm_gear_pouch
